@@ -1,8 +1,26 @@
 aid: thrive-earlier-detection
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrive-earlier-detection.png
 name: Thrive Earlier Detection
-description: 'Thrive Earlier Detection is a company surfaced as a portfolio company of lux-capital and
-  added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Thrive Earlier Detection Corp. was a healthcare/biotech company commercializing
+  CancerSEEK, a machine-learning-driven liquid biopsy blood test to detect multiple cancer
+  types from a single blood draw. Spun out of Johns Hopkins technology and backed by Lux
+  Capital, Bain Capital Life Sciences, Casdin, Google Ventures and others, it raised
+  large early rounds before being acquired by Exact Sciences in 2020/2021 for roughly
+  $2.15 billion and folded into Exact Sciences. This profile was surfaced as a Lux Capital
+  portfolio company and added to the API Evangelist network as an enrichment lead. It is
+  a clinical-diagnostics company with no public developer API surface; its former web
+  presence (thrivedetect.com) is decommissioned.'
 url: https://raw.githubusercontent.com/api-evangelist/thrive-earlier-detection/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,32 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired-defunct
+x-acquired-by: exact-sciences
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Biotech
+- Healthcare
+- Diagnostics
+- Cancer Screening
+- Liquid Biopsy
+- Life Sciences
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Defunct clinical-diagnostics company (CancerSEEK liquid biopsy), acquired by
+    Exact Sciences. No live site, no developer/API surface, no /.well-known resources.
+    www.thrivedetect.com returns 404 (WPEngine); apex has no A record; thrivedetection.com
+    parked for sale. No artifacts applicable.'
