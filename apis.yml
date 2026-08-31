@@ -68,3 +68,9 @@ x-enrichment:
     Exact Sciences. No live site, no developer/API surface, no /.well-known resources.
     www.thrivedetect.com returns 404 (WPEngine); apex has no A record; thrivedetection.com
     parked for sale. No artifacts applicable.'
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/exact-sciences/
+  name: Exact Sciences
+  x-relationship: acquired
+  x-evidence: "Spun out of Johns Hopkins technology and backed by Lux Capital, Bain Capital Life Sciences, Casdin, Google Ventures and others, it raised large early rounds before being acquired by Exact Sciences in 2020/2021 for roughly $2."
