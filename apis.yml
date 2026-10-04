@@ -39,12 +39,22 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired-defunct
+x-status: defunct
 x-acquired-by: exact-sciences
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
+- Company
+- Biotechnology
+- Healthcare
+- Diagnostics
+- Cancer Screening
+- Liquid Biopsy
+- Life Sciences
+- Acquired
+- Defunct
+tags_raw:
 - Company
 - Biotech
 - Healthcare
@@ -53,6 +63,7 @@ tags:
 - Liquid Biopsy
 - Life Sciences
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
